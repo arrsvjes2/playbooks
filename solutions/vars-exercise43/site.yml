@@ -1,0 +1,7 @@
+---
+- name: Generate password
+  hosts: devservers
+  become: true
+  tasks:
+
+  # task create user with papssword
