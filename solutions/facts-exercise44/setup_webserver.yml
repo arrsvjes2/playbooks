@@ -1,0 +1,4 @@
+---
+- name: Install remote facts
+  hosts: webserver
+  tasks:
